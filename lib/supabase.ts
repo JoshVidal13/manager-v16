@@ -1,8 +1,8 @@
 import { createClient } from "@supabase/supabase-js"
 
 // Obtener las variables de entorno
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || ""
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ""
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://bgkevryolodnsxofnunu.supabase.co"
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJna2V2cnlvbG9kbnN4b2ZudW51Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkxNjE2NzgsImV4cCI6MjA2NDczNzY3OH0.bJINAptkKqgly1PBgTQX3Q5-7RFpEnfLpgdB1b3E8Zk"
 
 // Verificar si las variables están definidas
 if (!supabaseUrl || !supabaseAnonKey) {
